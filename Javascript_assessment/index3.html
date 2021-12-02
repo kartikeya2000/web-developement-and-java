@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const min = (arr) => arr.reduce((x, y) => Math.min(x, y));
+      const max = (arr) => arr.reduce((x, y) => Math.max(x, y));
+
+      var arr = [6, 3, 5, 2, 9];
+
+      console.log("Min:", min(arr));
+      console.log("Max:", max(arr));
+
+      document.write("maximum value: " + max(arr));
+      document.write("<br>");
+      document.write("<br>");
+      document.write("minimum value:" + min(arr));
+    </script>
+  </body>
+</html>

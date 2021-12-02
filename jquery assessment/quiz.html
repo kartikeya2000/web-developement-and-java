@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container{
+      margin:20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- color  -->
+<div class = container>
+
+  <p>What is your favourite color?</p>
+  <div class = "options">
+  <label for  = "opt1"></label>
+  <input type  = "radio" id  = "opt1"  name  = "quiz" >red<br>
+
+  <label for  = "opt2"></label>
+  <input type  = "radio" id  = "opt2"  name  = "quiz">Blue<br>
+  
+  <label for  = "opt3"></label>
+  <input type  = "radio" id  = "opt3"  name  = "quiz">Yellow<br>
+</div>
+  <label for  = "opt4"></label>
+  <input type  = "radio" id  = "opt4" name  = "quiz">Orange<br>
+
+  <br>
+   
+  <button id  = "btn">Show answer</button>
+  <button id = "btn2">reset</button>
+
+  <!-- hobbies -->
+
+  <p>What are your hobbies?</p>
+  
+  <label for  = "opt1"></label>
+  <input type  = "radio" id  = "opt1"  name  = "quiz" >Designing<br>
+
+  <div class = "options1">
+
+  <label for  = "opt2"></label>
+  <input type  = "radio" id  = "opt2"  name  = "quiz">Outdoor Games<br>
+  
+  <label for  = "opt3"></label>
+  <input type  = "radio" id  = "opt3"  name  = "quiz">Dancing<br>
+
+  <label for  = "opt4"></label>
+  <input type  = "radio" id  = "opt4" name  = "quiz">Singing<br>
+</div>
+
+  <br>
+   
+  <button id  = "btn3">Show answer</button>
+  <button id = "btn4">reset</button>
+
+  <!-- hobbies -->
+
+  <p>What is your favourite food?</p>
+
+  <div class = "options2">
+  <label for  = "opt1"></label>
+  <input type  = "radio" id  = "opt1"  name  = "quiz" >Orange<br>
+  </div>
+
+  <label for  = "opt2"></label>
+  <input type  = "radio" id  = "opt2"  name  = "quiz">Apple<br>
+  
+  <div class = "options2">
+  <label for  = "opt3"></label>
+  <input type  = "radio" id  = "opt3"  name  = "quiz">Mango<br>
+
+  <label for  = "opt4"></label>
+  <input type  = "radio" id  = "opt4" name  = "quiz">Guava<br>
+</div>
+
+  <br>
+   
+  <button id  = "btn5">Show answer</button>
+  <button id = "btn6">reset</button>
+
+
+  <!-- hobbies -->
+
+  <p>What is your favourite color?</p>
+  <div class = "options3">
+  <label for  = "opt1"></label>
+  <input type  = "radio" id  = "opt1"  name  = "quiz" >red<br>
+
+  <label for  = "opt2"></label>
+  <input type  = "radio" id  = "opt2"  name  = "quiz">Blue<br>
+  
+</div>
+
+  <label for  = "opt3"></label>
+  <input type  = "radio" id  = "opt3"  name  = "quiz">Yellow<br>
+  <div class = "options3">
+  <label for  = "opt4"></label>
+  <input type  = "radio" id  = "opt4" name  = "quiz">Orange<br>
+</div>
+  <br>
+   
+  <button id  = "btn7">Show answer</button>
+  <button id = "btn8">reset</button>
+
+  <!-- hobbies -->
+
+  <p>What is your favourite color?</p>
+  <div class = "options4">
+  <label for  = "opt1"></label>
+  <input type  = "radio" id  = "opt1"  name  = "quiz" >red<br>
+
+  <label for  = "opt2"></label>
+  <input type  = "radio" id  = "opt2"  name  = "quiz">Blue<br>
+  
+  <label for  = "opt3"></label>
+  <input type  = "radio" id  = "opt3"  name  = "quiz">Yellow<br>
+</div>
+  <label for  = "opt4"></label>
+  <input type  = "radio" id  = "opt4" name  = "quiz">Orange<br>
+
+  <br>
+   
+  <button id  = "btn9">Show answer</button>
+  <button id = "btn10">reset</button>
+
+
+
+  <p>What is your favourite color?</p>
+  <div class = "options5">
+  <label for  = "opt1"></label>
+  <input type  = "radio" id  = "opt1"  name  = "quiz" >red<br>
+
+  <label for  = "opt2"></label>
+  <input type  = "radio" id  = "opt2"  name  = "quiz">Blue<br>
+  
+  <label for  = "opt3"></label>
+  <input type  = "radio" id  = "opt3"  name  = "quiz">Yellow<br>
+</div>
+  <label for  = "opt4"></label>
+  <input type  = "radio" id  = "opt4" name  = "quiz">Orange<br>
+
+  <br>
+   
+  <button id  = "btn11">Show answer</button>
+  <button id = "btn12">reset</button>
+
+
+</div>
+
+
+
+
+
+  <script src="jq/jquery-3.6.0.min.js"></script>
+  <script>
+  $('#btn').click(function(){
+    $('.options').hide(500);
+    })
+
+    $('#btn2').click(function(){
+      $('.options').show(500);
+    })
+
+
+
+    $('#btn3').click(function(){
+    $('.options1').hide(500);
+    })
+
+    $('#btn4').click(function(){
+      $('.options1').show(500);
+    })
+
+
+
+
+    $('#btn5').click(function(){
+    $('.options2').hide(500);
+    })
+    
+
+    $('#btn6').click(function(){
+      $('.options2').show(500);
+    })
+
+
+
+
+    $('#btn7').click(function(){
+    $('.options3').hide(500);
+    })
+
+    $('#btn8').click(function(){
+      $('.options3').show(500);
+    })
+
+
+
+
+
+    $('#btn9').click(function(){
+    $('.options4').hide(500);
+    })
+
+    $('#btn10').click(function(){
+      $('.options4').show(500);
+    })
+
+
+    $('#btn11').click(function(){
+    $('.options5').hide(500);
+    })
+
+    $('#btn12').click(function(){
+      $('.options5').show(500);
+    })
+
+
+
+  </script>
+</body>
+</html>

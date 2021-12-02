@@ -1,0 +1,39 @@
+<!-- Find second Minimum and Second Largest Number-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //const min = (arr) => arr.reduce((x, y) => Math.min(x, y));
+      // const max = (arr) => arr.reduce((x, y) => Math.max(x, y));
+
+      var sec_largest;
+      var sec_smallest;
+      var arr = [34,67,100,45,78,97,76,84,12,3,22];
+      arr.sort();
+      
+
+      for(i=0;i<arr.length;i++){
+        sec_smallest=arr[1];
+        sec_largest=arr[arr.length-1];
+      }
+
+      // for(i=arr.length-2;i>=0;i--){
+      //   if(arr[i]!=arr[arr.length-1]){
+      //     document.write("The second largest element is: <br>"+arr[i]);
+      //     return;
+      //   }
+      // }
+
+      document.write("Second max value: " + sec_largest);
+      document.write("<br>");
+      document.write("<br>");
+      document.write("Second min value:" + sec_smallest);
+    </script>
+  </body>
+</html>

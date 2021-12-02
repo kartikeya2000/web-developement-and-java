@@ -1,0 +1,33 @@
+
+<!DOCTYPE HTML> 
+<html> 
+    <head> 
+        <style>
+            button{
+                padding: 2%;
+                background-color: yellow;
+                margin-top: 15rem;
+            }
+        </style>
+    </head> 
+      
+    <body style = "text-align:center;">       
+          
+        <button onclick = "color_change()"> 
+            Click here to change color
+        </button>
+          
+          
+        <script>
+            var color = "blue";
+          
+             function changeColor(color) {
+                 document.body.style.background = color;
+             }
+              
+            function color_change() {
+                document.body.style.background = color
+            }         
+        </script> 
+    </body> 
+</html>     
